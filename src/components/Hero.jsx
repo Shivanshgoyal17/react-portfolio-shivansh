@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/shivansh.png";
 import { delay, motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -23,7 +23,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Kevin Rush
+              Shivansh Goyal
             </motion.h2>
             <motion.span 
               variants={container(0.5)}
